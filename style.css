@@ -1,0 +1,103 @@
+/* RESET SEDERHANA */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GAYA UTAMA */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6; /* Warna latar belakang lembut */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* FOTO PROFIL */
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; /* Membuat bulat */
+    object-fit: cover;
+    border: 5px solid #007bff; /* Garis tepi dengan warna primer */
+    margin-bottom: 25px;
+}
+
+/* TEKS DAN JUDUL */
+h1 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1em;
+    color: #7f8c8d;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 0.95em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* SEKSI KEAHLIAN */
+.skills h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px; /* Jarak antar item */
+}
+
+.skills-list li {
+    background-color: #e6f0ff;
+    color: #007bff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+}
+
+/* SEKSI KONTAK */
+.contact h3 {
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.links a:hover {
+    background-color: #0056b3;
+}
