@@ -8,7 +8,7 @@ body {
 /* GAYA UTAMA */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #EF88BE/* Warna latar belakang lembut */
+    background-color: #222c33/* Warna latar belakang lembut */
     color: #333;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
 .container {
     width: 90%;
     max-width: 450px;
-    background-color: #EF88BE
+    background-color: #ef88be
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
